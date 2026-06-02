@@ -4,7 +4,7 @@ module.exports = defineConfig({
   allowCypressEnv: false,
 
   e2e: {
-    baseUrl: 'http://automationpratice.com.br/',
+    baseUrl: 'http://automationpratice.com/',
     defaultCommandTimeout: 5000,
     setupNodeEvents(on, config) {
       // implement node event listeners here
